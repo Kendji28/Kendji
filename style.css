@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Manrope:wght@500&family=Montserrat&family=Press+Start+2P&display=swap");
+body {
+  min-height: 100vh;
+  margin: 0; /*permet d'enlever la marge et de coller les bordure a notre page  */
+  background: url(images/BG.jpg); /* photo en arriere plan */
+  background-size: cover; /* permet de couvrire tout la page */
+  background-attachment: fixed; /* permet de fixer */
+}
+H1 {
+  text-align: center; /* Permet de centrer le titre  */
+  text-transform: uppercase; /* aggrandit les case des lettre du titre  */
+  font-family: "Press Start 2P", sans-serif;
+  background-color: black; /* permet de surligner le titre 
+  plus precisement mettre de la coulleur en fond */
+  
+  border-radius: 20px;/* permet d'arrondire les angle de la partit surligner */
+  color: white; /* couleur des lettres du titre  */
+}
+H2 {
+  background: linear-gradient(blue, white); /* permet de fair une sorte de dégrader
+   avec deuc couleur pour un surlignage de texte  */
+
+  border-radius: 20px 0 20px 0; /* permet de ger les bordure des autre texte */
+}
+ol,p{
+  background: rgba(255, 255, 255, 0.5);
+}
+a {
+
+}
+em {
+  color: #0b8007d6; /* Mets les mots logiciel en vert. */
+}
+ol {
+
+  border: solid 5px rgb(3, 121, 3);
+  padding: 10px;
+}
+ol {
+    display: flex;
+    justify-content: space-around;
+}
+ol, p {
+  background: rgba(253, 253, 253, 0.5);
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+a {
+  color: black;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+li {
+  list-style: none;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: solid 2px rgb(66, 141, 66); /*ceci sert a mettre couleur des contour de chaque logo en vert.*/ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+a {
+  color: black;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+ol {
+  list-style-type: decimal;
+}
+div {
+align-items: center;
+}
+
+
+.classer_les_logo{
+  border:solid 5px  green; /* La taille de la bordure et la couleur */
+  padding: 10px;   /* taille de la zone marque par le rembourrage epais de couleur verte */
+  border-radius: 10px; /* comment vas etre ce rembourage vert , il peut etre carre ou arrondit sur les bord . */
+  margin-top: 20px;} /*placement de la zone delimité par le rembourage vert .*/
+
+
+.classer_les_logo ol{padding: 0; /* ppermet de centrer les bordure de la case occupant le logo 1 et 4 a mettre
+   un certain distantce entre la grosse bordure et la leur et les recentre. */
+  display: flex; /* il permet de classer les logo qui etait calsse de haut en bas en logo classé de gauche a droite  */
+  justify-content: space-around; 
+}
+
+.classer_les_logo li{
+  list-style: none; /*Il sert a enlever les nombres de la liste ordonné */
+  height: 150px; /* sert a gere la hauteur */
+  width: 150px; /* il sert a gerer la largeur*/
+  margin: 10px; /* sert a gerer la marge */
+  border: solid 2px green ; 
+  display: flex; /* sert a gerer la mini bordure qui entoure chaque logo separerment */
+  justify-content: center; /* permet de centrer les logo en largeur dans le case respectives.*/
+  align-items: center; /* permet de gerer les logo en hauteur. */
+
+}
+.classer_les_logo_2{
+  border:solid 5px  green; /* */
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;}
+
+  .classer_les_logo_2 ol{padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li.classer_les_logo_2 {
+    list-style: none;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: solid 2px green ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
